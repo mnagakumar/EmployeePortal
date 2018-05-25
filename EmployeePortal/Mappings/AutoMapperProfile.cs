@@ -12,7 +12,8 @@ namespace EmployeePortal.Mappings
     {
         public AutoMapperProfile()
         {
-            CreateMap<Employee, EmployeeViewModel>();
+            CreateMap<Employee, EmployeeViewModel>(); 
+
             CreateMap<EmployeeViewModel, Employee>();
         }
     }
